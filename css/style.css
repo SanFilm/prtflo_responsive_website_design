@@ -4,9 +4,36 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-size: 16px;
+  background: #a0a0a0;
 }
 
 /*--------------------*/
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 120px;
+  background-color: #efefef;
+  box-shadow: 0 0 5px rgb(60, 60, 60);
+  margin-bottom: 50px;
+}
+.header h1, .header h4 {
+  margin: 0;
+  text-align: right;
+  line-height: 1.5;
+  padding-right: 100px;
+}
+.header__title {
+  color: #ffd700;
+}
+.header__subtitle {
+  color: rgba(127, 127, 127, 0.5019607843);
+}
+.header__subtitle a {
+  text-decoration: none;
+  color: #7f7f7f;
+}
+
 /*--------------------*/
 .wrapper {
   display: grid;

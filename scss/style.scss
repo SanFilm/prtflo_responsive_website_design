@@ -5,9 +5,35 @@ body{
   font-family: 'Poppins', sans-serif;
 	font-weight: 300;
 	font-size: 16px;
+	background: #a0a0a0;
 }
 
 /*--------------------*/
+.header{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 120px;
+	background-color: #efefef;
+	box-shadow: 0 0 5px rgb(60, 60, 60);
+		h1, h4{
+			margin: 0;
+			text-align: right;
+			line-height: 1.5;
+			padding-right: 100px;
+		}
+		&__title{
+			color: #ffd700;
+		}
+		&__subtitle{
+			color: #7f7f7f80;
+				a{
+					text-decoration: none;
+					color: #7f7f7f;
+				}
+		}
+	margin-bottom: 50px;
+}
 
 /*--------------------*/
 .wrapper{

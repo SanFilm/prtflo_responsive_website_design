@@ -7,9 +7,38 @@ body{
 	font-size: 16px;
 	background: #a0a0a0;
 }
-
+/*--------------------*/
+.body-box{
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	// justify-content: space-between;
+	align-content: flex-start;
+		.header{
+			// min-width: 333px;
+			// min-height: 22px;
+			align-self: stretch;
+			// background-color: #efefef;
+		}
+		.main{
+			// min-width: 333px;
+			// min-height: 33px;
+			margin: 10px;
+			// flex: 1 1 auto;
+			// background-color: greenyellow;
+		}
+		.footer{
+			// min-width: 333px;
+			min-height: 22px;
+			// bottom: 0;
+			align-self: stretch;
+			background: tomato;
+		}
+}
 /*--------------------*/
 .header{
+	// width: 100vw;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -17,31 +46,35 @@ body{
 	background-color: #efefef;
 	box-shadow: 0 0 5px rgb(60, 60, 60);
 		h1, h4{
-			margin: 0;
 			text-align: right;
 			line-height: 1.5;
 			padding-right: 100px;
+			font-weight: bold;
 		}
 		&__title{
+			font-size: 32px;
 			color: #ffd700;
 		}
 		&__subtitle{
+			font-size: 16px;
 			color: #7f7f7f80;
 				a{
 					text-decoration: none;
 					color: #7f7f7f;
 				}
 		}
-	margin-bottom: 50px;
+	// margin-bottom: 10px;
 }
-
 /*--------------------*/
-.wrapper{
+/*--------------------*/
+.main-wrapper{
+	
 	display: grid;
   grid-template-columns: 3fr 4fr;
 	width: 1280px;
 	height: 744px;
-	margin: 0 auto;
+	// margin-bottom: 10px;
+	background-color: #00794680;
 }
 
 
@@ -53,17 +86,30 @@ body{
 
 /*--------------------*/
 .box-images{
-	// background: rgba(255, 255, 0, 0.3);
+	background: rgba(255, 255, 0, 0.3);
 	display: flex;
 	flex-wrap: wrap;
+	.box-images__elem{
+		width: 50%;
+		height: 50%;
+		// border: 1px solid #000;
+		background-color: greenyellow;
+		}
+	.box-images__elem:last-child{
+		width: 100%;
+		height: 50%;
+		background-color: rgb(129, 191, 35);
+	}
 		img{
-			width: 50%;
-			height: 50%;
-		}
-		img:last-child{
 			width: 100%;
-			height: 50%;
+			height: 100%;
+			object-fit: cover;
 		}
+}
+/*--------------------*/
+.footer{
+	height: 100px;
+	// background: tomato;
 }
 /*--------------------*/
 

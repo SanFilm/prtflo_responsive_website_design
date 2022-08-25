@@ -3,32 +3,41 @@
 <!-- Оболочка документа, указываем язык содержимого -->
 <html lang="en">
 	<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
-	<head>
-		<!-- Заголовок страницы в браузере -->
-		<title>Responsive Website Design</title>
-		<link rel="shortcut icon" href="./icons/favicons/favicons-96x96.ico" type="image/x-icon">
-		<!-- Подключаем CSS -->
-		<link rel="stylesheet" href="css/reset.css" />
-		<link rel="stylesheet" href="css/style.css" />
-		<!-- Кодировка страницы -->
-		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
-	</head>
-	<!-- Отображаемое тело страницы -->
-	<body>
-		<header class="header">
-			<h1 class="header__title">Responsive Website Design - Portfolio</h1>
-			<h4 class="header__subtitle">Источник — <a href="https://www.youtube.com/watch?v=zzlcH_cusek" target="_blank">Online
-					Tutorials</a></h4>
-		</header>
-		<div class="wrapper">
-			<div class="box-content">
-			</div>
-			<div class="box-images">
+<head>
+	<!-- Кодировка страницы -->
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Иконка страницы в браузере -->
+	<link rel="shortcut icon" href="./icons/favicons/favicons-96x96.ico" type="image/x-icon">
+	<!-- Подключаем CSS -->
+	<link rel="stylesheet" href="./css/reset.css" />
+	<link rel="stylesheet" href="./css/style.css" />
+	<!-- Заголовок страницы в браузере -->
+	<title>Responsive Website Design</title>
+</head>
+<body class="body-box">
+	<header class="header">
+		<h1 class="header__title">Responsive Website Design - Portfolio</h1>
+		<h4 class="header__subtitle">Источник — <a href="https://www.youtube.com/watch?v=zzlcH_cusek" target="_blank">Online
+				Tutorials</a></h4>
+	</header>
+	<main class="main main-wrapper">
+		<div class="box-content">
+		</div>
+		<div class="box-images">
+			<div class="box-images__elem">
 				<img src="./img/img1.jpg" alt="Foto.1">
+			</div>
+			<div class="box-images__elem">
 				<img src="./img/img2.jpg" alt="Foto.2">
+			</div>
+			<div class="box-images__elem">
 				<img src="./img/img3.jpg" alt="Foto.3">
-				<!-- </img> -->
 			</div>
 		</div>
-	</body>
+	</main>
+	<footer class="footer">
+	</footer>
+</body>
 </html>

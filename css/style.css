@@ -81,17 +81,17 @@ body {
 .box-images .box-images__elem:nth-child(1) {
   width: 50%;
   height: 50%;
-  background: url("../images/img1.jpg") 50% 30%/cover no-repeat;
+  background: url("../img/img1.jpg") 50% 30%/cover no-repeat;
 }
 .box-images .box-images__elem:nth-child(2) {
   width: 50%;
   height: 50%;
-  background: url("../images/img2.jpg") 80% 0%/cover no-repeat;
+  background: url("../img/img2.jpg") 80% 0%/cover no-repeat;
 }
 .box-images .box-images__elem:nth-child(3) {
   width: 100%;
   height: 50%;
-  background: url("../images/img3.jpg") 50% 10%/cover no-repeat;
+  background: url("../img/img3.jpg") 50% 10%/cover no-repeat;
 }
 
 /*--------------------*/
